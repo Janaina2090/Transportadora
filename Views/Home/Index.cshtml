@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div container>
+    <div class="row">
+        <div class="col-xs-12 col-lg-12 col-md-12">
+            <img class="imagem" src="~/Imagem/unnamed.jpg" />
+        </div>
+    </div>
+    <br /> <br />
+    <h4 class="text-center bg-danger">
+        TEMOS BASES OPERACIONAIS EM TODOS OS ESTADOS DO BRASIL
+    </h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="~/Imagem/Terrestre.jpeg" alt="Truk e Carreta Dedicado" />
+                    <div>
+                        <h4>Veículo Dedicado</h4>
+                        <div>@Html.ActionLink("Saiba Mais", "Dedicado", "Home", new { @class = "btn btn-danger" })</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="~/Imagem/Refrigeradas.jpeg" alt="Carga refrigeradas" />
+                    <div>
+                        <h4>Cargas Refrigeradas</h4>
+                        <div>@Html.ActionLink("Saiba Mais", "Refrigerado", "Home", new { @class = "btn btn-danger" })</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="~/Imagem/Containers.png" alt="Truk e Carreta Dedicado" />
+                    <div>
+                        <h4>Transporte de Containers</h4>
+                        <div>@Html.ActionLink("Saiba Mais", "Containers", "Home", new { @class = "btn btn-danger" })</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="~/Imagem/Aérea.jpeg" alt="Truk e Carreta Dedicado" />
+                    <div>
+                        <h4>Aéreo Nacional</h4>
+                        <div>@Html.ActionLink("Saiba Mais", "Aereo", "Home", new { @class = "btn btn-danger" })</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <h1 class="text-center"><b>NOSSOS CLIENTES</b></h1>
+    <br />
+    <div class="row">
+
+
+        <div id="logo">
+            <div class="col-xs-12 col-lg-10  text-center">
+                <img src="~/Imagem/mercadoLivrre.jpeg" alt="Mercado Livre" class="img-circle img-responsive" />
+            </div>
+        </div>
+        <div id="logo">
+            <div class="col-xs-12 col-lg-10 text-justify">
+                <img src="~/Imagem/Starbucks.jpeg" alt="Starbucks" class="img-circle img-responsive" />
+            </div>
+        </div>
+        <div id="logo">
+            <div class="col-xs-12 col-lg-10 text-justify">
+                <img src="~/Imagem/Avon.jpeg" alt="Avon" class="img-circle img-responsive" />
+            </div>
+        </div>
+        <div id="logo">
+            <div class="col-xs-12 col-lg-10 text-justify">
+                <img src="~/Imagem/Oi 2.jpeg" alt="Oi" class="img-circle img-responsive" />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
